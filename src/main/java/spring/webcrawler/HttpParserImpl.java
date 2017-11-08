@@ -106,7 +106,7 @@ public class HttpParserImpl implements HttpParser {
 
 		Jerry doc = Jerry.jerry(content);
 		doc.$("a").each(new JerryFunction() {
-			public boolean onNode(Jerry $this, int index) {
+			public Boolean onNode(Jerry $this, int index) {
 
 				URI uri;
 				String link = $this.attr("href");
