@@ -49,7 +49,6 @@ public class SpiderImpl implements Spider {
 		HOST = uri.getHost();
 		HOST_KEY = uri.getHost().substring(4);
 		
-		// crawl
 		crawl(uri, depth);
 		
 		long endTime = System.currentTimeMillis();
@@ -61,9 +60,6 @@ public class SpiderImpl implements Spider {
 				+ (float) (endTime - starTime) / 1000 + 's');
 	}
 
-	/*
-	 * A recursive function for crawlling
-	 */
 	private void crawl(URI uri, int depth) {
 		currentDepth = depth;
 		logger.debug("current depth:" + depth);
@@ -79,10 +75,8 @@ public class SpiderImpl implements Spider {
 			alreadyVisited.add(uri);
 		}
 
-		// call crawler
 		if (crawler.get(uri, messageResponse)) {
 
-			// call parser
 			List<URI> uris = parser.parseLinks(uri, messageResponse.toString());
 
 			for (int i = 0; i < uris.size(); i++) {
@@ -91,9 +85,6 @@ public class SpiderImpl implements Spider {
 		}
 	}
 
-	/*
-	 * delete lucene data
-	 */
 	private void deleteLuceneData() {
 		String path = System.getProperty("user.dir") + "\\lucene_dat";
 		File directory = new File(path);
@@ -103,7 +94,6 @@ public class SpiderImpl implements Spider {
 				file.delete();
 			}
 		}
-		// directory.delete();
 	}
 
 }

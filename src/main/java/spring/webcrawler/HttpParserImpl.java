@@ -37,14 +37,11 @@ public class HttpParserImpl implements HttpParser {
 		this.uri = uri;
 		uris = new LinkedList<URI>();
 		
-		// get page info of current uri
 		getBodyText(content);
 
-		// check same page by title
 		if (samePageCheckByTitle(content)) {
 			logger.debug("Already visited because of same title" + uri.toString());
 		} else {
-			// if current depth is 1, stop getting links
 			if (1 == SpiderImpl.currentDepth) {
 				logger.debug("Stop parsing href because current depth is 1.");
 			} else {
@@ -85,8 +82,7 @@ public class HttpParserImpl implements HttpParser {
 
 		});
 
-		// create index
-		indexCreator.createIndex(uri, result.toString());
+		indexCreator.indexing(uri, result.toString());
 	}
 
 	private boolean samePageCheckByTitle(String content) {

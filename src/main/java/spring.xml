@@ -15,7 +15,7 @@
     <bean id="indexCreator" class="spring.webcrawler.IndexingImpl">
     </bean>
     
-    <bean id="searcher" class="spring.webcrawler.SearchImpl">
+    <bean id="search" class="spring.webcrawler.SearchImpl">
     </bean>
     
     <bean id="spider" class="spring.webcrawler.SpiderImpl">

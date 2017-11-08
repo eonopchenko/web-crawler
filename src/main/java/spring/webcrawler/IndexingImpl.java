@@ -24,32 +24,27 @@ public class IndexingImpl implements Indexing {
 			.getLogger(IndexingImpl.class);
 	
 	@Override
-	public void createIndex(URI uri, String content) {
+	public void indexing(URI uri, String content) {
 		IndexWriterConfig iwc;
 		IndexWriter writer = null;
 		Document doc = null;
 		try {
-			// Create Directory
 			Directory directory = FSDirectory.open(new File(
 					SpiderConstant.LUCENE_DAT_PATH));
 
-			// Create IndexWriterConfig, using default analyzer
 			iwc = new IndexWriterConfig(Version.LUCENE_36,
 					new StandardAnalyzer(Version.LUCENE_36));
 
-			// Create IndexWriter
 			writer = new IndexWriter(directory, iwc);
 
 			doc = new Document();
-			// add filed for uri, store and not analyzed and no norms
 			doc.add(new Field(SpiderConstant.LUCENE_FIELD_URI, uri.toString(),
 					Field.Store.YES, Field.Index.NOT_ANALYZED_NO_NORMS));
-			// add filed for content, store and analyzed
 			doc.add(new Field(SpiderConstant.LUCENE_FIELD_CONTENT, content,
 					Field.Store.YES, Field.Index.ANALYZED));
 			writer.addDocument(doc);
 
-			logger.debug("Creating index is succesful for " + uri.toString());
+			logger.debug("Indexing is succesful for " + uri.toString());
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {

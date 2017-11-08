@@ -24,7 +24,7 @@ public class SpiderController {
 	private static Logger logger = LoggerFactory
 			.getLogger(SpiderController.class);
 	private static BeanFactory factory;
-	private static Search searcher;
+	private static Search search;
 	private static Spider spider;
 
 	List<UrlBean> urlBeans = new ArrayList<UrlBean>();
@@ -32,7 +32,7 @@ public class SpiderController {
 	public SpiderController() {
 		factory = new ClassPathXmlApplicationContext("spring.xml");
 		spider = factory.getBean("spider", SpiderImpl.class);
-		searcher = factory.getBean("searcher", SearchImpl.class);
+		search = factory.getBean("search", SearchImpl.class);
 	}
 	
 	public static void main(String[] args) {
@@ -44,15 +44,15 @@ public class SpiderController {
 
 		if ("".equals(crawlerBean.getSearchKey().trim())) {
 			crawlerBean.setMessage("Please input key you want to search.");
-			return "searcher";
+			return "search";
 		}
 
-		urlBeans = searcher.search(crawlerBean.getSearchKey());
+		urlBeans = search.search(crawlerBean.getSearchKey());
 
 		model.put("urlBeans", urlBeans);
 
-		logger.debug("Searcher is successful!");
-		return "searcher";
+		logger.debug("Search is successful!");
+		return "search";
 	}
 
 	@RequestMapping(method = RequestMethod.POST, value = "/crawl")
@@ -67,7 +67,7 @@ public class SpiderController {
 			e.printStackTrace();
 		}
 
-		return "searcher";
+		return "search";
 	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/spider")
@@ -75,8 +75,8 @@ public class SpiderController {
 		return "spider";
 	}
 
-	@RequestMapping(method = RequestMethod.GET, value = "/searcher")
-	public String searcher(Map<String, Object> model) {
-		return "searcher";
+	@RequestMapping(method = RequestMethod.GET, value = "/search")
+	public String search(Map<String, Object> model) {
+		return "search";
 	}
 }
