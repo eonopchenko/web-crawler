@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Spider</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.min.css}" />
+    <script src="/jquery-3.2.1.slim.min.js"></script>
+    <script src="/popper.min.js"></script>
+	<script src="/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <h2>Searcher</h2>
+    <form method="POST" action="search">
+		<div class="col-md-2 form-group">
+			<label for="searchKey">Search:</label>
+			<input type="text" class="form-control" placeholder="Enter string to search" name="searchKey" id="searchKey"></input>
+		</div>
+    	<div class="col-md-2 form-group">
+			<button type="submit" class="btn btn-primary">Search!</button>
+		</div>
+		<ul th:each="urlBean : ${urlBeans}">
+		<li>
+			<a th:href="${urlBean.url}"><span th:text="${urlBean.url}">URI</span></a>
+			<span th:utext="${urlBean.content}">Content</span>
+		</li>
+		</ul>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Spider</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.min.css}" />
+    <script src="/jquery-3.2.1.slim.min.js"></script>
+    <script src="/popper.min.js"></script>
+	<script src="/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <h2>Crawler</h2>
+    <form method="POST" action="crawl">
+		<div class="col-md-2 form-group">
+			<label for="uri">URI:</label>
+			<input type="text" class="form-control" placeholder="Enter site URI" name="uri" id="uri" value="http://www.unitec.ac.nz"></input>
+		</div>
+    	<div class="col-md-2 form-group">
+			<label for="depth">Search depth:</label>
+			<input type="text" class="form-control" placeholder="Enter search depth" name="depth" id="depth" value="2"></input>
+		</div>
+    	<div class="col-md-2 form-group">
+			<button type="submit" class="btn btn-primary">Create index!</button>
+		</div>
+    </form>
+  </body>
+</html>
