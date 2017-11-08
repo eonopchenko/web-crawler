@@ -1400,3 +1400,385 @@
 2017-11-08 21:18:03 - score   = 0.044147022
 2017-11-08 21:18:03 - uri     = http://www.unitec.ac.nz/site-map
 2017-11-08 21:18:03 - Search is successful!
+2017-11-09 09:41:16 - Starting SpiderController on DESKTOP-QMB9SO1 with PID 7340 (C:\Users\eugene\workspace\1\web-crawler\target\classes started by eugene in C:\Users\eugene\workspace\1\web-crawler)
+2017-11-09 09:41:16 - Running with Spring Boot v1.2.3.RELEASE, Spring v4.1.6.RELEASE
+2017-11-09 09:41:20 - Started SpiderController in 3.781 seconds (JVM running for 4.183)
+2017-11-09 09:41:26 - current depth:2
+2017-11-09 09:41:29 - Indexing is succesful for http://www.unitec.ac.nz
+2017-11-09 09:41:29 - Not a http href:#
+2017-11-09 09:41:29 - Not a http href:#
+2017-11-09 09:41:29 - Blank href!
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/contact-us
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/frequently-asked-questions
+2017-11-09 09:41:29 - Not a http href:https://myportal.unitec.ac.nz/welcome
+2017-11-09 09:41:29 - Blank href!
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/career-and-study-options
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/career-and-study-options
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/node/22
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/why-choose-unitec/learning-in-action
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/blog
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/bringing-birdlife-back-to-matuku-link
+2017-11-09 09:41:29 - Not a http href:https://applynow.unitec.ac.nz/Account/Login?ReturnUrl=%2Fdashboard
+2017-11-09 09:41:29 - Not a http href:https://myportal.unitec.ac.nz/welcome
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/industry
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/contact-us/media-releases
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/finalists-and-judges-announced-for-uni-shorts-2017
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/node/22
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/application-and-funding/funding-your-study/loans-and-allowances
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/contact-us/media-releases
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/events
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/blog
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/getting-smarter-with-digital-technology
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/blog
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/like-a-duck-to-water
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/contact-us/media-releases
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/mataaho-hosts-electric-car-competition
+2017-11-09 09:41:29 - Other website href:http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.unitec.ac.nz/&p[images][0]=http://www.unitec.ac.nz/sites/default/files/public/_resampled/default.jpg-752x424.jpg&p[title]=Unitec
+2017-11-09 09:41:29 - URISyntaxException with href:http://twitter.com/intent/tweet?url=http://www.unitec.ac.nz/&text=Unitec Institute of Technology offers short courses, certificates, diplomas and degrees at Mt Albert and Henderson, Waitākere campuses in Auckland, NZ.&hashtags=Unitecnz
+2017-11-09 09:41:29 - Not a http href:https://plus.google.com/share?url=http://www.unitec.ac.nz/
+2017-11-09 09:41:29 - URISyntaxException with href:http://www.linkedin.com/shareArticle?mini=true&url=http://www.unitec.ac.nz/&title=Unitec∑mary=Unitec Institute of Technology offers short courses, certificates, diplomas and degrees at Mt Albert and Henderson, Waitākere campuses in Auckland, NZ.&source=Unitec
+2017-11-09 09:41:29 - Not a http href:tel:0800 10 95 10
+2017-11-09 09:41:29 - Not a http href:mailto:study@unitec.ac.nz
+2017-11-09 09:41:29 - Not a http href:https://www.facebook.com/UnitecNZ
+2017-11-09 09:41:29 - Not a http href:https://twitter.com/unitecnz
+2017-11-09 09:41:29 - Other website href:http://www.youtube.com/user/UnitecNZ
+2017-11-09 09:41:29 - Not a http href:https://plus.google.com/+unitecnz
+2017-11-09 09:41:29 - Not a http href:https://www.linkedin.com/school/22290/
+2017-11-09 09:41:29 - Already existing href:http://www.unitec.ac.nz/about-us/contact-us
+2017-11-09 09:41:29 - Found (48) links in [http://www.unitec.ac.nz]
+2017-11-09 09:41:29 - current depth:1
+2017-11-09 09:41:31 - Indexing is succesful for http://www.unitec.ac.nz/node/22
+2017-11-09 09:41:31 - Already visited because of same titlehttp://www.unitec.ac.nz/node/22
+2017-11-09 09:41:31 - Found (0) links in [http://www.unitec.ac.nz/node/22]
+2017-11-09 09:41:31 - current depth:1
+2017-11-09 09:41:33 - Indexing is succesful for http://www.unitec.ac.nz/
+2017-11-09 09:41:33 - Already visited because of same titlehttp://www.unitec.ac.nz/
+2017-11-09 09:41:33 - Found (0) links in [http://www.unitec.ac.nz/]
+2017-11-09 09:41:33 - current depth:1
+2017-11-09 09:41:35 - Indexing is succesful for http://www.unitec.ac.nz/current-students
+2017-11-09 09:41:35 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:35 - Found (0) links in [http://www.unitec.ac.nz/current-students]
+2017-11-09 09:41:35 - current depth:1
+2017-11-09 09:41:36 - Indexing is succesful for http://www.unitec.ac.nz/international
+2017-11-09 09:41:36 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:36 - Found (0) links in [http://www.unitec.ac.nz/international]
+2017-11-09 09:41:36 - current depth:1
+2017-11-09 09:41:37 - Indexing is succesful for http://www.unitec.ac.nz/maori
+2017-11-09 09:41:37 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:37 - Found (0) links in [http://www.unitec.ac.nz/maori]
+2017-11-09 09:41:37 - current depth:1
+2017-11-09 09:41:38 - Indexing is succesful for http://www.unitec.ac.nz/pacific
+2017-11-09 09:41:38 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:38 - Found (0) links in [http://www.unitec.ac.nz/pacific]
+2017-11-09 09:41:38 - current depth:1
+2017-11-09 09:41:39 - Indexing is succesful for http://www.unitec.ac.nz/alumni
+2017-11-09 09:41:39 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:39 - Found (0) links in [http://www.unitec.ac.nz/alumni]
+2017-11-09 09:41:39 - current depth:1
+2017-11-09 09:41:41 - Indexing is succesful for http://www.unitec.ac.nz/about-us
+2017-11-09 09:41:41 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:41 - Found (0) links in [http://www.unitec.ac.nz/about-us]
+2017-11-09 09:41:41 - current depth:1
+2017-11-09 09:41:43 - Indexing is succesful for http://www.unitec.ac.nz/blog
+2017-11-09 09:41:43 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:43 - Found (0) links in [http://www.unitec.ac.nz/blog]
+2017-11-09 09:41:43 - current depth:1
+2017-11-09 09:41:45 - Indexing is succesful for http://www.unitec.ac.nz/industry
+2017-11-09 09:41:45 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:45 - Found (0) links in [http://www.unitec.ac.nz/industry]
+2017-11-09 09:41:45 - current depth:1
+2017-11-09 09:41:47 - Indexing is succesful for http://www.unitec.ac.nz/career-and-study-options
+2017-11-09 09:41:47 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:47 - Found (0) links in [http://www.unitec.ac.nz/career-and-study-options]
+2017-11-09 09:41:47 - current depth:1
+2017-11-09 09:41:48 - Indexing is succesful for http://www.unitec.ac.nz/why-choose-unitec
+2017-11-09 09:41:48 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:48 - Found (0) links in [http://www.unitec.ac.nz/why-choose-unitec]
+2017-11-09 09:41:48 - current depth:1
+2017-11-09 09:41:49 - Indexing is succesful for http://www.unitec.ac.nz/application-and-funding
+2017-11-09 09:41:49 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:49 - Found (0) links in [http://www.unitec.ac.nz/application-and-funding]
+2017-11-09 09:41:49 - current depth:1
+2017-11-09 09:41:50 - Indexing is succesful for http://www.unitec.ac.nz/research
+2017-11-09 09:41:50 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:50 - Found (0) links in [http://www.unitec.ac.nz/research]
+2017-11-09 09:41:50 - current depth:1
+2017-11-09 09:41:52 - Indexing is succesful for http://www.unitec.ac.nz/about-us/contact-us
+2017-11-09 09:41:52 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:52 - Found (0) links in [http://www.unitec.ac.nz/about-us/contact-us]
+2017-11-09 09:41:52 - current depth:1
+2017-11-09 09:41:53 - Indexing is succesful for http://www.unitec.ac.nz/about-us/frequently-asked-questions
+2017-11-09 09:41:53 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:53 - Found (0) links in [http://www.unitec.ac.nz/about-us/frequently-asked-questions]
+2017-11-09 09:41:53 - current depth:1
+2017-11-09 09:41:54 - Indexing is succesful for http://www.unitec.ac.nz/why-choose-unitec/learning-in-action
+2017-11-09 09:41:54 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:54 - Found (0) links in [http://www.unitec.ac.nz/why-choose-unitec/learning-in-action]
+2017-11-09 09:41:54 - current depth:1
+2017-11-09 09:41:58 - Indexing is succesful for http://www.unitec.ac.nz/about-us/bringing-birdlife-back-to-matuku-link
+2017-11-09 09:41:58 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:58 - Found (0) links in [http://www.unitec.ac.nz/about-us/bringing-birdlife-back-to-matuku-link]
+2017-11-09 09:41:58 - current depth:1
+2017-11-09 09:41:59 - Indexing is succesful for http://www.unitec.ac.nz/application-and-funding/how-to-apply/apply-for-a-programme
+2017-11-09 09:41:59 - Stop parsing href because current depth is 1.
+2017-11-09 09:41:59 - Found (0) links in [http://www.unitec.ac.nz/application-and-funding/how-to-apply/apply-for-a-programme]
+2017-11-09 09:41:59 - current depth:1
+2017-11-09 09:42:00 - Indexing is succesful for http://www.unitec.ac.nz/current-students/student-life/academic-calendar
+2017-11-09 09:42:00 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:00 - Found (0) links in [http://www.unitec.ac.nz/current-students/student-life/academic-calendar]
+2017-11-09 09:42:00 - current depth:1
+2017-11-09 09:42:00 - Indexing is succesful for http://moodle.unitec.ac.nz
+2017-11-09 09:42:00 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:00 - Found (0) links in [http://moodle.unitec.ac.nz]
+2017-11-09 09:42:00 - current depth:1
+2017-11-09 09:42:01 - Indexing is succesful for http://library.unitec.ac.nz
+2017-11-09 09:42:01 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:01 - Found (0) links in [http://library.unitec.ac.nz]
+2017-11-09 09:42:01 - current depth:1
+2017-11-09 09:42:03 - Indexing is succesful for http://www.unitec.ac.nz/about-us/contact-us/staff-directory
+2017-11-09 09:42:03 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:03 - Found (0) links in [http://www.unitec.ac.nz/about-us/contact-us/staff-directory]
+2017-11-09 09:42:03 - current depth:1
+2017-11-09 09:42:05 - Indexing is succesful for http://www.unitec.ac.nz/about-us/contact-us/practice-pathway-groups?dp_fc_limit=0
+2017-11-09 09:42:05 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:05 - Found (0) links in [http://www.unitec.ac.nz/about-us/contact-us/practice-pathway-groups?dp_fc_limit=0]
+2017-11-09 09:42:05 - current depth:1
+2017-11-09 09:42:06 - Indexing is succesful for http://www.unitec.ac.nz/about-us/contact-us/media-contacts
+2017-11-09 09:42:06 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:06 - Found (0) links in [http://www.unitec.ac.nz/about-us/contact-us/media-contacts]
+2017-11-09 09:42:06 - current depth:1
+2017-11-09 09:42:08 - Indexing is succesful for http://www.unitec.ac.nz/about-us/contact-us/media-releases
+2017-11-09 09:42:08 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:08 - Found (0) links in [http://www.unitec.ac.nz/about-us/contact-us/media-releases]
+2017-11-09 09:42:08 - current depth:1
+2017-11-09 09:42:09 - Indexing is succesful for http://www.unitec.ac.nz/about-us/our-transformation
+2017-11-09 09:42:09 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:09 - Found (0) links in [http://www.unitec.ac.nz/about-us/our-transformation]
+2017-11-09 09:42:09 - current depth:1
+2017-11-09 09:42:10 - Indexing is succesful for http://www.unitec.ac.nz/about-us/finalists-and-judges-announced-for-uni-shorts-2017
+2017-11-09 09:42:10 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:10 - Found (0) links in [http://www.unitec.ac.nz/about-us/finalists-and-judges-announced-for-uni-shorts-2017]
+2017-11-09 09:42:10 - current depth:1
+2017-11-09 09:42:12 - Indexing is succesful for http://www.unitec.ac.nz/application-and-funding/funding-your-study/loans-and-allowances
+2017-11-09 09:42:12 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:12 - Found (0) links in [http://www.unitec.ac.nz/application-and-funding/funding-your-study/loans-and-allowances]
+2017-11-09 09:42:12 - current depth:1
+2017-11-09 09:42:13 - Indexing is succesful for http://www.unitec.ac.nz/about-us/mumps-in-schools-and-tertiary-institutions
+2017-11-09 09:42:13 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:13 - Found (0) links in [http://www.unitec.ac.nz/about-us/mumps-in-schools-and-tertiary-institutions]
+2017-11-09 09:42:13 - current depth:1
+2017-11-09 09:42:14 - Indexing is succesful for http://www.unitec.ac.nz/about-us/events
+2017-11-09 09:42:14 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:14 - Found (0) links in [http://www.unitec.ac.nz/about-us/events]
+2017-11-09 09:42:14 - current depth:1
+2017-11-09 09:42:18 - Indexing is succesful for http://www.unitec.ac.nz/about-us/pasifika-writing-retreats
+2017-11-09 09:42:18 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:18 - Found (0) links in [http://www.unitec.ac.nz/about-us/pasifika-writing-retreats]
+2017-11-09 09:42:18 - current depth:1
+2017-11-09 09:42:21 - Indexing is succesful for http://www.unitec.ac.nz/about-us/social-practice-pasifika-hui
+2017-11-09 09:42:21 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:21 - Found (0) links in [http://www.unitec.ac.nz/about-us/social-practice-pasifika-hui]
+2017-11-09 09:42:21 - current depth:1
+2017-11-09 09:42:22 - Indexing is succesful for http://www.unitec.ac.nz/about-us/gradfest-2017
+2017-11-09 09:42:23 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:23 - Found (0) links in [http://www.unitec.ac.nz/about-us/gradfest-2017]
+2017-11-09 09:42:23 - current depth:1
+2017-11-09 09:42:24 - Indexing is succesful for http://www.unitec.ac.nz/about-us/ally-workshop
+2017-11-09 09:42:24 - Stop parsing href because current depth is 1.
+2017-11-09 09:42:24 - Found (0) links in [http://www.unitec.ac.nz/about-us/ally-workshop]
+2017-11-09 09:42:24 - current depth:1
+2017-11-09 09:44:00 - Indexing is succesful for http://www.unitec.ac.nz/about-us/getting-smarter-with-digital-technology
+2017-11-09 09:44:01 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:01 - Found (0) links in [http://www.unitec.ac.nz/about-us/getting-smarter-with-digital-technology]
+2017-11-09 09:44:01 - current depth:1
+2017-11-09 09:44:02 - Indexing is succesful for http://www.unitec.ac.nz/about-us/like-a-duck-to-water
+2017-11-09 09:44:02 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:02 - Found (0) links in [http://www.unitec.ac.nz/about-us/like-a-duck-to-water]
+2017-11-09 09:44:02 - current depth:1
+2017-11-09 09:44:03 - Indexing is succesful for http://www.unitec.ac.nz/about-us/mataaho-hosts-electric-car-competition
+2017-11-09 09:44:04 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:04 - Found (0) links in [http://www.unitec.ac.nz/about-us/mataaho-hosts-electric-car-competition]
+2017-11-09 09:44:04 - current depth:1
+2017-11-09 09:44:05 - Indexing is succesful for http://www.unitec.ac.nz/?ssr_page=2
+2017-11-09 09:44:06 - Already visited because of same titlehttp://www.unitec.ac.nz/?ssr_page=2
+2017-11-09 09:44:06 - Found (0) links in [http://www.unitec.ac.nz/?ssr_page=2]
+2017-11-09 09:44:06 - current depth:1
+2017-11-09 09:44:06 - Indexing is succesful for http://www.unitec.ac.nz/application-and-funding/how-to-apply
+2017-11-09 09:44:07 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:07 - Found (0) links in [http://www.unitec.ac.nz/application-and-funding/how-to-apply]
+2017-11-09 09:44:07 - current depth:1
+2017-11-09 09:44:08 - Indexing is succesful for http://www.unitec.ac.nz/application-and-funding/scholarships-and-awards
+2017-11-09 09:44:08 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:08 - Found (0) links in [http://www.unitec.ac.nz/application-and-funding/scholarships-and-awards]
+2017-11-09 09:44:08 - current depth:1
+2017-11-09 09:44:08 - current depth:1
+2017-11-09 09:44:09 - Indexing is succesful for http://www.unitec.ac.nz/about-us/careers
+2017-11-09 09:44:09 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:09 - Found (0) links in [http://www.unitec.ac.nz/about-us/careers]
+2017-11-09 09:44:09 - current depth:1
+2017-11-09 09:44:10 - Indexing is succesful for http://www.unitec.ac.nz/about-us/staff-logins
+2017-11-09 09:44:10 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:10 - Found (0) links in [http://www.unitec.ac.nz/about-us/staff-logins]
+2017-11-09 09:44:10 - current depth:1
+2017-11-09 09:44:10 - Indexing is succesful for http://www.unitec.ac.nz/about-us/information-for-unitec-suppliers
+2017-11-09 09:44:10 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:10 - Found (0) links in [http://www.unitec.ac.nz/about-us/information-for-unitec-suppliers]
+2017-11-09 09:44:10 - current depth:1
+2017-11-09 09:44:11 - Indexing is succesful for http://www.unitec.ac.nz/privacy-policy
+2017-11-09 09:44:11 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:11 - Found (0) links in [http://www.unitec.ac.nz/privacy-policy]
+2017-11-09 09:44:11 - current depth:1
+2017-11-09 09:44:12 - Indexing is succesful for http://www.unitec.ac.nz/terms-of-use
+2017-11-09 09:44:12 - Stop parsing href because current depth is 1.
+2017-11-09 09:44:12 - Found (0) links in [http://www.unitec.ac.nz/terms-of-use]
+2017-11-09 09:44:12 - current depth:1
+2017-11-09 09:45:39 - Indexing is succesful for http://www.unitec.ac.nz/site-map
+2017-11-09 09:45:39 - Stop parsing href because current depth is 1.
+2017-11-09 09:45:39 - Found (0) links in [http://www.unitec.ac.nz/site-map]
+2017-11-09 09:45:39 - The num of already visited pages: 49
+2017-11-09 09:45:39 - The num of toVisit pages: 48
+2017-11-09 09:45:39 - The time of processing: 252.525s
+2017-11-09 09:45:39 - Crawler is successful!
+2017-11-09 09:45:46 - Found 48 hits.
+2017-11-09 09:45:46 - score   = 0.14170612
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/application-and-funding/funding-your-study/loans-and-allowances
+2017-11-09 09:45:46 - score   = 0.11245234
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/frequently-asked-questions
+2017-11-09 09:45:46 - score   = 0.10711977
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/node/22
+2017-11-09 09:45:46 - score   = 0.10711977
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/
+2017-11-09 09:45:46 - score   = 0.10711977
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz
+2017-11-09 09:45:46 - score   = 0.10711977
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/current-students
+2017-11-09 09:45:46 - score   = 0.10711977
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/industry
+2017-11-09 09:45:46 - score   = 0.10711977
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/application-and-funding/how-to-apply
+2017-11-09 09:45:46 - score   = 0.10602107
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/research
+2017-11-09 09:45:46 - score   = 0.10602107
+2017-11-09 09:45:46 - uri     = http://moodle.unitec.ac.nz
+2017-11-09 09:45:46 - score   = 0.09276844
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/blog
+2017-11-09 09:45:46 - score   = 0.09276844
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/application-and-funding
+2017-11-09 09:45:46 - score   = 0.09181695
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/application-and-funding/how-to-apply/apply-for-a-programme
+2017-11-09 09:45:46 - score   = 0.086565845
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/pacific
+2017-11-09 09:45:46 - score   = 0.086565845
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/alumni
+2017-11-09 09:45:46 - score   = 0.086565845
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/maori
+2017-11-09 09:45:46 - score   = 0.0795158
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/why-choose-unitec
+2017-11-09 09:45:46 - score   = 0.0795158
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/contact-us/media-releases
+2017-11-09 09:45:46 - score   = 0.07651412
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/staff-logins
+2017-11-09 09:45:46 - score   = 0.07574511
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/international
+2017-11-09 09:45:46 - score   = 0.07574511
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us
+2017-11-09 09:45:46 - score   = 0.07574511
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/our-transformation
+2017-11-09 09:45:46 - score   = 0.07574511
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/application-and-funding/scholarships-and-awards
+2017-11-09 09:45:46 - score   = 0.07574511
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/?ssr_page=2
+2017-11-09 09:45:46 - score   = 0.06843631
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/finalists-and-judges-announced-for-uni-shorts-2017
+2017-11-09 09:45:46 - score   = 0.06492438
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/why-choose-unitec/learning-in-action
+2017-11-09 09:45:46 - score   = 0.06492438
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/contact-us
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/contact-us/media-contacts
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/ally-workshop
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/events
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/pasifika-writing-retreats
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/social-practice-pasifika-hui
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/gradfest-2017
+2017-11-09 09:45:46 - score   = 0.061211295
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/careers
+2017-11-09 09:45:46 - score   = 0.054103654
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/privacy-policy
+2017-11-09 09:45:46 - score   = 0.053559884
+2017-11-09 09:45:46 - uri     = http://library.unitec.ac.nz
+2017-11-09 09:45:46 - score   = 0.053559884
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/contact-us/practice-pathway-groups?dp_fc_limit=0
+2017-11-09 09:45:46 - score   = 0.053010534
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/like-a-duck-to-water
+2017-11-09 09:45:46 - score   = 0.04716647
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/site-map
+2017-11-09 09:45:46 - score   = 0.045908473
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/bringing-birdlife-back-to-matuku-link
+2017-11-09 09:45:46 - score   = 0.045908473
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/information-for-unitec-suppliers
+2017-11-09 09:45:46 - score   = 0.043282922
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/terms-of-use
+2017-11-09 09:45:46 - score   = 0.03825706
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/contact-us/staff-directory
+2017-11-09 09:45:46 - score   = 0.03825706
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/current-students/student-life/academic-calendar
+2017-11-09 09:45:46 - score   = 0.03825706
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/getting-smarter-with-digital-technology
+2017-11-09 09:45:46 - score   = 0.03825706
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/mumps-in-schools-and-tertiary-institutions
+2017-11-09 09:45:46 - score   = 0.03825706
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/about-us/mataaho-hosts-electric-car-competition
+2017-11-09 09:45:46 - score   = 0.03246219
+2017-11-09 09:45:46 - uri     = http://www.unitec.ac.nz/career-and-study-options
+2017-11-09 09:45:46 - Search is successful!
+2017-11-09 09:46:36 - Starting SpiderController on DESKTOP-QMB9SO1 with PID 6076 (C:\Users\eugene\workspace\1\web-crawler\target\classes started by eugene in C:\Users\eugene\workspace\1\web-crawler)
+2017-11-09 09:46:36 - Running with Spring Boot v1.2.3.RELEASE, Spring v4.1.6.RELEASE
+2017-11-09 09:46:40 - Started SpiderController in 3.836 seconds (JVM running for 4.244)
+2017-11-09 09:46:50 - current depth:1
+2017-11-09 09:46:53 - Indexing is succesful for http://www.unitec.ac.nz
+2017-11-09 09:46:53 - Stop parsing href because current depth is 1.
+2017-11-09 09:46:53 - Found (0) links in [http://www.unitec.ac.nz]
+2017-11-09 09:46:53 - The num of already visited pages: 1
+2017-11-09 09:46:53 - The num of toVisit pages: 0
+2017-11-09 09:46:53 - The time of processing: 2.575s
+2017-11-09 09:46:53 - Crawler is successful!
+2017-11-09 09:46:57 - Found 1 hits.
+2017-11-09 09:46:57 - score   = 0.033562027
+2017-11-09 09:46:57 - uri     = http://www.unitec.ac.nz
+2017-11-09 09:46:57 - Search is successful!
+2017-11-09 09:49:58 - Starting SpiderController on DESKTOP-QMB9SO1 with PID 4332 (C:\Users\eugene\workspace\1\web-crawler\target\classes started by eugene in C:\Users\eugene\workspace\1\web-crawler)
+2017-11-09 09:49:58 - Running with Spring Boot v1.2.3.RELEASE, Spring v4.1.6.RELEASE
+2017-11-09 09:50:01 - Started SpiderController in 3.895 seconds (JVM running for 4.321)
+2017-11-09 09:50:06 - current depth:1
+2017-11-09 09:50:08 - Indexing is succesful for http://www.unitec.ac.nz
+2017-11-09 09:50:08 - Stop parsing href because current depth is 1.
+2017-11-09 09:50:08 - Found (0) links in [http://www.unitec.ac.nz]
+2017-11-09 09:50:08 - The num of already visited pages: 1
+2017-11-09 09:50:08 - The num of toVisit pages: 0
+2017-11-09 09:50:08 - The time of processing: 2.393s
+2017-11-09 09:50:08 - Crawler is successful!
+2017-11-09 09:50:11 - Found 1 hits.
+2017-11-09 09:50:11 - score   = 0.033562027
+2017-11-09 09:50:11 - uri     = http://www.unitec.ac.nz
+2017-11-09 09:50:11 - Search is successful!
+2017-11-09 10:35:01 - Starting SpiderController on DESKTOP-QMB9SO1 with PID 4912 (C:\Users\eugene\workspace\1\web-crawler\target\classes started by eugene in C:\Users\eugene\workspace\1\web-crawler)
+2017-11-09 10:35:01 - Running with Spring Boot v1.2.3.RELEASE, Spring v4.1.6.RELEASE
+2017-11-09 10:35:04 - Started SpiderController in 4.099 seconds (JVM running for 4.479)
+2017-11-09 10:35:10 - current depth:1
+2017-11-09 10:35:12 - Indexing is succesful for http://www.unitec.ac.nz
+2017-11-09 10:35:12 - Stop parsing href because current depth is 1.
+2017-11-09 10:35:12 - Found (0) links in [http://www.unitec.ac.nz]
+2017-11-09 10:35:12 - The num of already visited pages: 1
+2017-11-09 10:35:12 - The num of toVisit pages: 0
+2017-11-09 10:35:12 - The time of processing: 2.485s
+2017-11-09 10:35:12 - Crawler is successful!
+2017-11-09 10:35:15 - Found 1 hits.
+2017-11-09 10:35:15 - score   = 0.033562027
+2017-11-09 10:35:15 - uri     = http://www.unitec.ac.nz
+2017-11-09 10:35:15 - Search is successful!

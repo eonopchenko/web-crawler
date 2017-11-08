@@ -86,7 +86,7 @@ public class SpiderImpl implements Spider {
 	}
 
 	private void deleteLuceneData() {
-		String path = System.getProperty("user.dir") + "\\lucene_dat";
+		String path = System.getProperty("user.dir") + "\\index_db";
 		File directory = new File(path);
 		if (directory.exists() && directory.isDirectory()) {
 			File files[] = directory.listFiles();

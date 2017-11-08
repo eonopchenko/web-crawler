@@ -116,13 +116,13 @@ public class HttpParserImpl implements HttpParser {
 					return true;
 				}
 
-				if (!link.startsWith(SpiderConstant.PREFIX_HTTP)
-						&& !link.startsWith(SpiderConstant.PREFIX_HTTPS)
-						&& !link.startsWith(SpiderConstant.PREFIX_SLASH)) {
+				if (!link.startsWith("http://")
+						&& !link.startsWith("https://")
+						&& !link.startsWith("/")) {
 					logger.debug("Not a http href:" + link);
 					return true;
-				} else if (link.startsWith(SpiderConstant.PREFIX_SLASH)) {
-					link = SpiderConstant.PREFIX_HTTP + SpiderImpl.HOST
+				} else if (link.startsWith("/")) {
+					link = "http://" + SpiderImpl.HOST
 							+ link;
 				}
 

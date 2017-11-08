@@ -30,7 +30,7 @@ public class IndexingImpl implements Indexing {
 		Document doc = null;
 		try {
 			Directory directory = FSDirectory.open(new File(
-					SpiderConstant.LUCENE_DAT_PATH));
+					"./index_db"));
 
 			iwc = new IndexWriterConfig(Version.LUCENE_36,
 					new StandardAnalyzer(Version.LUCENE_36));
@@ -38,9 +38,9 @@ public class IndexingImpl implements Indexing {
 			writer = new IndexWriter(directory, iwc);
 
 			doc = new Document();
-			doc.add(new Field(SpiderConstant.LUCENE_FIELD_URI, uri.toString(),
+			doc.add(new Field("uri", uri.toString(),
 					Field.Store.YES, Field.Index.NOT_ANALYZED_NO_NORMS));
-			doc.add(new Field(SpiderConstant.LUCENE_FIELD_CONTENT, content,
+			doc.add(new Field("content", content,
 					Field.Store.YES, Field.Index.ANALYZED));
 			writer.addDocument(doc);
 

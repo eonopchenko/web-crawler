@@ -47,14 +47,14 @@ public class SearchImpl implements Search {
 		try {
 
 			directory = FSDirectory.open(new File(
-					SpiderConstant.LUCENE_DAT_PATH));
+					"./index_db"));
 
 			reader = IndexReader.open(directory);
 
 			searcher = new IndexSearcher(reader);
 
 			parser = new QueryParser(Version.LUCENE_36,
-					SpiderConstant.LUCENE_FIELD_CONTENT, new StandardAnalyzer(
+					"content", new StandardAnalyzer(
 							Version.LUCENE_36));
 
 			query = parser.parse(content);
@@ -66,14 +66,14 @@ public class SearchImpl implements Search {
 			logger.debug("Found " + sds.length + " hits.");
 			for (ScoreDoc sd : sds) {
 				doc = searcher.doc(sd.doc);
-				String txt = doc.get(SpiderConstant.LUCENE_FIELD_CONTENT);
+				String txt = doc.get("content");
 				txt = highlight(new StandardAnalyzer(Version.LUCENE_36), query,
-						SpiderConstant.LUCENE_FIELD_CONTENT, txt);
-				lst.add(new UrlBean(doc.get(SpiderConstant.LUCENE_FIELD_URI),
+						"content", txt);
+				lst.add(new UrlBean(doc.get("uri"),
 						txt));
 				logger.debug("score   = " + sd.score);
 				logger.debug("uri     = "
-						+ doc.get(SpiderConstant.LUCENE_FIELD_URI));
+						+ doc.get("uri"));
 			}
 
 			if (null != searcher)

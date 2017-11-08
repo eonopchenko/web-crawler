@@ -32,16 +32,16 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/htmlparser-1.6p.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/htmlparser-2.1.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/httpclient-4.3.6.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/httpcore-4.3.3.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/jodd-core-3.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/jodd-lagarto-3.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/jodd-log-3.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/jsoup-1.8.2.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/lucene-analyzers-3.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/lucene-core-3.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/alexandrli/eclipse-workspace/web-crawler/lib/lucene-highlighter-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/htmlparser-1.6p.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/htmlparser-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/httpclient-4.3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/httpcore-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/jodd-core-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/jodd-lagarto-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/jodd-log-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/jsoup-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/lucene-analyzers-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/lucene-core-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eugene/workspace/1/web-crawler/lib/lucene-highlighter-3.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
